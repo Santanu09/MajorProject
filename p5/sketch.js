@@ -109,11 +109,3 @@ function draw() {
     }
   }
 }
-
-
-function mousePressed() {
-  easyMode = collidePointRect(mouseX, mouseY, easyButtonX, easyButtonY, 150, 50);
-  if (easyMode === true && state === 0){
-    state = 1;
-  }
-}
